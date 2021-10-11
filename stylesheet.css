@@ -1,0 +1,35 @@
+body {
+    margin:auto;
+    font-family:"Lucida Grande";
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    padding: 200px;
+}
+
+.container{
+    width:800px;
+    padding: 0 15px;
+    display: flex;
+    background-color: aliceblue;
+    border: black;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.side{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+ul{
+    background-color: bisque;
+}
